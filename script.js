@@ -17,6 +17,7 @@ const getSum = () => {
 	let newRow=document.createElement("tr");
 	newRow.innerHTML=`<td></td>
 //  <td>${price}</td>`;
+	newRow.id="ans"
 
 	const table=document.getElementsByTagName("TABLE")[0];
 	table.appendChild(newRow);
